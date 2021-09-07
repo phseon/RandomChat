@@ -1,0 +1,14 @@
+{
+  "nickname": [
+    {
+      "id": 1,
+      "email": "1234qwer@gmail.com",
+      "password": "3456DJFDLKSJKJF",
+      "nickname": "qwas",
+      "gender": "F",
+      "match_gender": "",
+      "introduce": "Hello",
+      "image": ""
+    }
+  ]
+}
