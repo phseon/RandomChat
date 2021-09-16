@@ -1,15 +1,13 @@
 import './App.css';
 import Mypage from './pages/Mypage';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 function App() {
 
 
   return (
     <div className="App">
-      <BrowserRouter>
-      <Route component={Mypage} path="/Mypage"/>
-      </BrowserRouter>
+      <Route component={Mypage} path="/Mypage" exact/>
     </div>
   );
 }
