@@ -1,22 +1,15 @@
 import './App.css';
-import Mypage from './components/Mypage';
-import Profile from './components/Profile';
-import EmailPassword from './components/EmailPassword'
-import Gender from './components/Gender';
-
-import React from 'react';
-import Nickname from './components/Nickname';
+import Mypage from './pages/Mypage';
+import { BrowserRouter, Route } from 'react-router-dom';
 
 function App() {
 
 
   return (
     <div className="App">
-      <Mypage/>
-      <Profile/>
-      <EmailPassword/>
-      <Nickname/>
-      <Gender/>
+      <BrowserRouter>
+      <Route component={Mypage} path="/Mypage"/>
+      </BrowserRouter>
     </div>
   );
 }
